@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/globals.css">
+    <script src="slider.js" defer></script>
+    <script src="https://kit.fontawesome.com/e05f21b32e.js" crossorigin="anonymous"></script>
     <title>Home</title>
 </head>
+
 <body>
+
+<!-- Navbar -->
 <nav class="main-nav" id="main-nav">
     <div class="container nav-container">
         <h1 class="logo">Logo</h1>
@@ -28,5 +33,59 @@
         </ul>
     </div>
 </nav>
+
+
+<!-- Slider -->
+<div class="slider-container">
+
+    <!-- Slide 1 -->
+    <div class="slide">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>
+                Slide One
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere facilis nemo perferendis sint
+                voluptate?
+            </p>
+        </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+        <div class="content">
+            <h1>
+                Slide Two
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere facilis nemo perferendis sint
+                voluptate?
+            </p>
+        </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide current">
+        <div class="content">
+            <h1>
+                Slide Three
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere facilis nemo perferendis sint
+                voluptate?
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Slider Buttons -->
+<button class="btn btn-previous" id="previous-btn">
+    <i class="fas fa-arrow-left"></i>
+</button>
+
+<button class="btn btn-next" id="next-btn">
+    <i class="fas fa-arrow-right"></i>
+</button>
 </body>
 </html>
